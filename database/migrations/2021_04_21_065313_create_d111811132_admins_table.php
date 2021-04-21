@@ -15,6 +15,9 @@ class CreateD111811132AdminsTable extends Migration
     {
         Schema::create('d111811132_admins', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('email');
+            $table->string('password');
             $table->timestamps();
         });
     }

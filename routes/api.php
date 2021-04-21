@@ -20,5 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('/d111811137_admin', d111811137_adminController::class);
 Route::resource('/d111811137_news', d111811137_newsController::class);
+
 Route::resource('/d111811132_admin', d111811132_adminController::class);
 Route::resource('/d111811132_news', d111811132_newsController::class);
+
